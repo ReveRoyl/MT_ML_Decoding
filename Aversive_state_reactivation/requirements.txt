@@ -1,108 +1,106 @@
-ansiwrap==0.8.4
-appdirs==1.4.4
-argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
-argon2-cffi-bindings @ file:///C:/ci/argon2-cffi-bindings_1644569878360/work
-asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
-attrs @ file:///opt/conda/conda-bld/attrs_1642510447205/work
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
-beautifulsoup4 @ file:///C:/ci/beautifulsoup4_1650274792587/work
-bleach @ file:///opt/conda/conda-bld/bleach_1641577558959/work
-certifi==2021.10.8
-cffi @ file:///C:/ci_310/cffi_1642682485096/work
-charset-normalizer==2.0.12
-click==8.1.2
-colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
-colorlover==0.3.0
-cufflinks==0.17.3
-cycler==0.11.0
-debugpy @ file:///C:/ci/debugpy_1637073815078/work
-decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
-defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
-entrypoints @ file:///C:/ci/entrypoints_1649926621247/work
-executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
-fastjsonschema @ file:///tmp/build/80754af9/python-fastjsonschema_1620414857593/work/dist
-fonttools==4.33.3
-idna==3.3
-importlib-resources @ file:///tmp/build/80754af9/importlib_resources_1625135880749/work
-ipykernel @ file:///C:/ci/ipykernel_1647000978151/work/dist/ipykernel-6.9.1-py3-none-any.whl
-ipython @ file:///C:/ci/ipython_1648817225380/work
-ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
-ipywidgets @ file:///tmp/build/80754af9/ipywidgets_1634143127070/work
-jedi @ file:///C:/ci/jedi_1644315425835/work
-Jinja2==3.1.1
-joblib @ file:///tmp/build/80754af9/joblib_1635411271373/work
-jsonschema @ file:///C:/ci/jsonschema_1650026220037/work
-jupyter==1.0.0
-jupyter-client @ file:///C:/ci/jupyter_client_1650534470695/work
-jupyter-console @ file:///opt/conda/conda-bld/jupyter_console_1647002188872/work
-jupyter-core @ file:///C:/ci/jupyter_core_1646976462809/work
-jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
-jupyterlab-widgets @ file:///tmp/build/80754af9/jupyterlab_widgets_1609884341231/work
-kiwisolver==1.4.2
-llvmlite==0.38.0
-MarkupSafe==2.1.1
-matplotlib==3.5.1
-matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
-mistune==0.8.4
-mkl-fft==1.3.1
-mkl-random @ file:///C:/ci/mkl_random_1626186184278/work
-mkl-service==2.4.0
-mne==1.0.2
-nbclient @ file:///C:/ci/nbclient_1650290386732/work
-nbconvert @ file:///C:/ci/nbconvert_1649741005454/work
-nbformat @ file:///C:/ci/nbformat_1649845101866/work
-nest-asyncio @ file:///C:/ci/nest-asyncio_1649829929372/work
-networkx==2.8
-notebook @ file:///C:/ci/notebook_1645002756862/work
-numba @ file:///C:/ci/numba_1650390761636/work
-numpy @ file:///C:/ci/numpy_and_numpy_base_1649782971440/work
-packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
-pandas==1.4.2
-pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
-papermill==2.3.4
-parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
-pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
-Pillow==9.1.0
-plotly==5.7.0
-pooch==1.6.0
-prometheus-client @ file:///opt/conda/conda-bld/prometheus_client_1643788673601/work
-prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
-pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
-Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
-pyparsing==3.0.8
-pyrsistent @ file:///C:/ci/pyrsistent_1636111468851/work
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-pytz==2022.1
-pywin32==302
-pywinpty @ file:///C:/ci_310/pywinpty_1644230983541/work/target/wheels/pywinpty-2.0.2-cp38-none-win_amd64.whl
-PyYAML==6.0
-pyzmq @ file:///C:/ci/pyzmq_1638435185959/work
-qtconsole @ file:///opt/conda/conda-bld/qtconsole_1649078897110/work
-QtPy @ file:///opt/conda/conda-bld/qtpy_1649073884068/work
-requests==2.27.1
-scikit-learn @ file:///C:/ci/scikit-learn_1642599125707/work
-scikit-plot==0.3.7
-scipy==1.8.0
-seaborn==0.11.2
-Send2Trash @ file:///tmp/build/80754af9/send2trash_1632406701022/work
-sip==4.19.13
-six @ file:///tmp/build/80754af9/six_1644875935023/work
-sklearn==0.0
-soupsieve @ file:///tmp/build/80754af9/soupsieve_1636706018808/work
-stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
-tenacity==8.0.1
-terminado @ file:///C:/ci/terminado_1644322757089/work
-testpath @ file:///tmp/build/80754af9/testpath_1624638946665/work
-textwrap3==0.9.2
-threadpoolctl==3.1.0
-tornado @ file:///C:/ci/tornado_1606942392901/work
-tqdm==4.64.0
-traitlets @ file:///tmp/build/80754af9/traitlets_1636710298902/work
-typing_extensions @ file:///opt/conda/conda-bld/typing_extensions_1647553014482/work
-urllib3==1.26.9
-wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
-webencodings==0.5.1
-widgetsnbextension @ file:///C:/ci/widgetsnbextension_1645009558218/work
-wincertstore==0.2
-zipp @ file:///opt/conda/conda-bld/zipp_1641824620731/work
+ansiwrap
+appdirs
+argon2-cffi 
+argon2-cffi-bindings 
+asttokens 
+attrs 
+backcall 
+beautifulsoup4 
+bleach 
+certifi
+cffi 
+charset-normalizer
+click
+colorama 
+colorlover
+cufflinks
+cycler
+debugpy 
+decorator 
+defusedxml 
+entrypoints 
+executing 
+fastjsonschema 
+fonttools
+idna
+importlib-resources 
+ipykernel 
+ipython 
+ipython-genutils 
+ipywidgets 
+jedi 
+Jinja2
+joblib 
+jsonschema 
+jupyter
+jupyter-client 
+jupyter-console 
+jupyter-core 
+jupyterlab-pygments 
+jupyterlab-widgets 
+kiwisolver
+llvmlite
+MarkupSafe
+matplotlib
+matplotlib-inline 
+mistune
+mkl-fft
+mkl-random 
+mkl-service
+mne
+nbclient 
+nbconvert 
+nbformat 
+nest-asyncio 
+networkx
+notebook 
+numba 
+numpy 
+packaging 
+pandas
+pandocfilters 
+papermill
+parso 
+pickleshare 
+Pillow
+plotly
+pooch
+prometheus-client 
+prompt-toolkit 
+pure-eval 
+pycparser 
+Pygments 
+pyparsing
+pyrsistent 
+python-dateutil 
+pytz
+PyYAML
+pyzmq 
+qtconsole 
+QtPy 
+requests
+scikit-learn 
+scikit-plot
+scipy
+seaborn
+Send2Trash 
+sip
+six 
+sklearn
+soupsieve 
+stack-data 
+tenacity
+terminado 
+testpath 
+textwrap3
+threadpoolctl
+tornado 
+tqdm
+traitlets 
+typing_extensions 
+urllib3
+wcwidth 
+webencodings
+widgetsnbextension 
+wincertstore
+zipp 
