@@ -94,7 +94,7 @@ terminado
 testpath 
 textwrap3
 threadpoolctl
-tornado 
+tornado==5.1.0
 tqdm
 traitlets 
 typing_extensions 
