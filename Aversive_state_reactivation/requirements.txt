@@ -24,8 +24,8 @@ fastjsonschema
 fonttools
 idna
 importlib-resources 
-ipykernel 
-ipython 
+ipykernel==4.10 
+ipython==5.5.0 
 ipython-genutils 
 ipywidgets 
 jedi 
