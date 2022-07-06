@@ -1,8 +1,9 @@
 .vscode/
 Publisher.sh
-<<<<<<< HEAD
 Aversive_state_reactivation/notebooks/templates/data/
 Aversive_state_reactivation/notebooks/templates/savefolder/
-=======
->>>>>>> parent of afc7ab9 (update)
 CNN/data/
+CNN/models/test
+CNN/.ipynb_checkpoints/
+*.pyc
+__pycache__/
