@@ -151,7 +151,7 @@ def load_MEG_dataset(
             os.path.join(
                 data_location,
                 "sub-{0}".format(sub),
-                "sub-{0}_ses-01_task-AversiveLearningReplay_run-localiser_proc_ICA-epo.fif.gz".format(
+                "sub-{0}_ses-01_task-AversiveLearningReplay_run-localiser_proc_ICA-epo.fif.gz".format( # added 400hz-
                     sub
                 ),
             )
@@ -160,7 +160,7 @@ def load_MEG_dataset(
             url = (
                 "https://openneuro.org/crn/datasets/ds003682/snapshots/1.0.0/files/derivatives:"
                 "preprocessing:sub-{0}:localiser:sub-{0}_ses-01_task-AversiveLearningReplay"
-                "_run-localiser_proc_ICA-epo.fif.gz".format(sub)
+                "_run-localiser_proc_ICA-epo.fif.gz".format(sub) # added 400hz-
             )
 
             # https://www.alpharithms.com/progress-bars-for-python-downloads-580122/
@@ -174,20 +174,20 @@ def load_MEG_dataset(
                     os.path.join(
                         data_location,
                         "sub-{0}".format(sub),
-                        "sub-{0}_ses-01_task-AversiveLearningReplay_run-localiser_proc_ICA-epo.fif.gz".format(
+                        "sub-{0}_ses-01_task-AversiveLearningReplay_run-localiser_proc_ICA-epo.fif.gz".format( # added 400hz-
                             sub
                         ),
                     ),
                     "wb",
                 ) as f:
                     shutil.copyfileobj(r.raw, f)
-            print("Download complete")
+            print("Download 300hz complete")
 
         localiser_epochs = mne.read_epochs(
             os.path.join(
                 data_location,
                 "sub-{0}".format(sub),
-                "sub-{0}_ses-01_task-AversiveLearningReplay_run-localiser_proc_ICA-epo.fif.gz".format(
+                "sub-{0}_ses-01_task-AversiveLearningReplay_run-localiser_proc_ICA-epo.fif.gz".format( # added 400hz-
                     sub
                 ),
             ),
