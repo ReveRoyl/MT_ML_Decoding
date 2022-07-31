@@ -66,7 +66,7 @@ def load_MEG_dataset(
     trial_data_format: str = "2D",
     data_location: str = "./data/",
     center_timepoint: int = 20,
-    window_width: List[int] = [-5000, 5000],
+    window_width: List[int] = [-400, 400],
     shuffle: bool = False,
     pca_n_components: int = None,
     training: bool = True,
@@ -193,6 +193,8 @@ def load_MEG_dataset(
             ),
             verbose="ERROR",
         )
+        localiser_epochs = localiser_epochs.copy().resample(800, npad='auto')
+
 
         print('Data loaded')
 
