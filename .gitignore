@@ -4,9 +4,16 @@ Aversive_state_reactivation/notebooks/templates/data/
 Aversive_state_reactivation/notebooks/templates/savefolder/
 CNN/data/
 CNN/models/
+CNN/checkpoint.pt
+CNN/Digraph.gv
+CNN/CNN_haiku.ipynb
+CNN/CNN_Pytorch.ipynb
+CNN/CNN_Tensorflow.ipynb
+CNN/pytorch_NN.ipynb
 CNN/.ipynb_checkpoints/
 *.pyc
 __pycache__/
 models/
 data/
 .ipynb_checkpoints/
+Colab_Notebooks/
