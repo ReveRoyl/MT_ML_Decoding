@@ -193,7 +193,7 @@ def load_MEG_dataset(
             ),
             verbose="ERROR",
         )
-        localiser_epochs = localiser_epochs.copy().resample(800, npad='auto')
+        localiser_epochs = localiser_epochs.copy().resample(1000, npad='auto')
 
 
         print('Data loaded')

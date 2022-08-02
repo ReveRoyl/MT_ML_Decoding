@@ -13,7 +13,7 @@ from scipy.integrate import simps
 from scipy.signal import welch
 # from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler as skScaler
-def bandpower_1d(data, sf, band, nperseg=100, relative=False):
+def bandpower_1d(data, sf, band, nperseg=800, relative=False):
     """
         Compute the average power of the signal x in a specific frequency band.
         https://raphaelvallat.com/bandpower.html
@@ -40,7 +40,7 @@ def bandpower_1d(data, sf, band, nperseg=100, relative=False):
 
     # Compute the modified periodogram (Welch)
     # TODO: generalize freq values
-    psd, freqs = psd_array_welch(data, sf, 1., 70., n_per_seg=int(100 / 2),
+    psd, freqs = psd_array_welch(data, sf, 1., 70., n_per_seg=int(800 / 2),
                                  n_overlap=0, n_jobs=1)
 
     # Frequency resolution
@@ -56,7 +56,7 @@ def bandpower_1d(data, sf, band, nperseg=100, relative=False):
         bp /= simps(psd, dx=freq_res)
     return bp
 
-def bandpower(x, fs, bands, nperseg=100, relative=True):
+def bandpower(x, fs, bands, nperseg=800, relative=True):
     """
     Compute the average power of the multi-channel signal x in a specific frequency band.
     Args:
@@ -101,7 +101,7 @@ def bandpower(x, fs, bands, nperseg=100, relative=True):
 
     return bp
 
-def bandpower_multi_bands(x, fs, bands,  nperseg=100, relative=True):
+def bandpower_multi_bands(x, fs, bands,  nperseg=800, relative=True):
     
     n_epoch, n_channel, _ = x.shape
     bp = np.zeros((n_epoch, n_channel, len(bands)))
