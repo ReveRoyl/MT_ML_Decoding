@@ -181,7 +181,7 @@ def load_MEG_dataset(
                     "wb",
                 ) as f:
                     shutil.copyfileobj(r.raw, f)
-            print("Download 300hz complete")
+            print("Download complete")
 
         localiser_epochs = mne.read_epochs(
             os.path.join(
@@ -193,7 +193,7 @@ def load_MEG_dataset(
             ),
             verbose="ERROR",
         )
-        localiser_epochs = localiser_epochs.copy().resample(1000, npad='auto')
+        # localiser_epochs = localiser_epochs.copy().resample(1000, npad='auto')
 
 
         print('Data loaded')
