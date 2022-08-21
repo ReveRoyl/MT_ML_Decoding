@@ -193,10 +193,10 @@ def load_MEG_dataset(
             ),
             verbose="ERROR",
         )
-        # localiser_epochs = localiser_epochs.copy().resample(1000, npad='auto')
+        localiser_epochs = localiser_epochs.copy().resample(1000, npad='auto')
 
 
-        print('Data loaded')
+        print('1000hz Data loaded')
 
         # Get epoch data
         X_raw = (

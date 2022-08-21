@@ -13,6 +13,7 @@ from scipy.integrate import simps
 from scipy.signal import welch
 # from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler as skScaler
+
 def bandpower_1d(data, sf, band, nperseg=800, relative=False):
     """
         Compute the average power of the signal x in a specific frequency band.
