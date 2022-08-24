@@ -66,7 +66,7 @@ def load_MEG_dataset(
     trial_data_format: str = "2D",
     data_location: str = "./data/",
     center_timepoint: int = 20,
-    window_width: List[int] = [-400, 400],
+    window_width: List[int] = [-4000, 4000],
     shuffle: bool = False,
     pca_n_components: int = None,
     training: bool = True,
@@ -193,10 +193,10 @@ def load_MEG_dataset(
             ),
             verbose="ERROR",
         )
-        localiser_epochs = localiser_epochs.copy().resample(1000, npad='auto')
+        localiser_epochs = localiser_epochs.copy().resample(800, npad='auto')
 
 
-        print('1000hz Data loaded')
+        print('the 800 hz Data loaded')
 
         # Get epoch data
         X_raw = (
