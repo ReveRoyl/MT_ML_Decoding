@@ -1,4 +1,4 @@
-# [A novel convolutional neural network approach for classifying brain states under image stimuli](https://github.com/ReveRoyl/PictureBed/raw/main/LuoLei_Thesis2022.docx)
+# [A novel convolutional neural network approach for classifying brain states under image stimuli](https://reveroyl.github.io/2022/08/24/Thesis/)
 
 Background: The mechanism of human neural responses to different stimuli has always been of interest to neuroscientists. In the clinical situation, tools to distinguish different diseases or states are required. However, classic classification methods have obvious shortcomings: traditional clinical categorical methods may not be competent for behaviour prediction or brain state classification and traditional machine learning models are improvable in classification accuracy. With the increasing use of convolutional neural networks (CNN) in neuroimaging computer-assisted classification, an ensemble classifier of CNNs might be able to mine hidden patterns from MEG signals. However, developing an effective brain state classifier is a difficult task owing to the non-Euclidean graphical nature of magnetoencephalography (MEG) signals.
 
